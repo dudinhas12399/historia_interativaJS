@@ -1,3 +1,4 @@
+
 const caixaPrincipal = document.querySelector(".caixa-principal");
 const caixaPerguntas = document.querySelector(".caixa-perguntas");
 const caixaAlternativas = document.querySelector(".caixa-alternativas");
@@ -11,17 +12,17 @@ const perguntas = [
       {
         texto: "Educação.",
         afirmacao: [
-          "A cidade investiu em educação, melhorando a aprendizagem e criando oportunidades para os jovens.",
-          "Com mais recursos para as escolas, a população passou a ter melhores condições de qualificação profissional.",
-          "Apesar dos avanços, a cidade percebeu que precisava manter os investimentos para garantir resultados duradouros."
+          "A cidade melhorou a qualidade do ensino, oferecendo mais oportunidades para crianças e jovens.",
+          "Os investimentos nas escolas contribuíram para a formação de profissionais mais preparados para o mercado de trabalho.",
+          "A educação trouxe benefícios para a população, mas ainda precisava de mais recursos para alcançar todos os bairros."
         ]
       },
       {
         texto: "Saúde.",
         afirmacao: [
-          "A cidade priorizou a saúde, ampliando o atendimento médico e melhorando a qualidade de vida da população.",
-          "A construção de uma nova unidade de saúde reduziu o tempo de espera por consultas.",
-          "Mesmo com os avanços, a falta de investimentos em outras áreas começou a gerar novos desafios."
+          "A população passou a contar com mais médicos e melhores condições de atendimento.",
+          "A ampliação dos serviços de saúde ajudou a prevenir doenças e melhorar a qualidade de vida dos moradores.",
+          "Apesar das melhorias, algumas regiões ainda enfrentavam dificuldades para conseguir atendimento médico."
         ]
       }
     ]
@@ -32,17 +33,17 @@ const perguntas = [
       {
         texto: "Investir em infraestrutura.",
         afirmacao: [
-          "A cidade modernizou as tubulações, reduzindo o desperdício de água durante a distribuição.",
-          "A construção de reservatórios ajudou a garantir o abastecimento nos períodos de estiagem.",
-          "Os custos das obras foram elevados, exigindo planejamento para não comprometer outros serviços públicos."
+          "A reforma do sistema de distribuição diminuiu os vazamentos e melhorou o abastecimento de água.",
+          "Novos reservatórios foram construídos, garantindo maior segurança hídrica para a população.",
+          "As obras ajudaram a resolver parte do problema, mas exigiram investimentos elevados da prefeitura."
         ]
       },
       {
         texto: "Criar campanhas de conscientização.",
         afirmacao: [
-          "As campanhas incentivaram os moradores a reduzir o tempo de banho e evitar desperdícios.",
-          "Escolas e empresas passaram a participar de ações para economizar água.",
-          "Mesmo com a mudança de hábitos, a falta de manutenção das tubulações continuou causando perdas de água."
+          "Os moradores começaram a utilizar a água de maneira mais consciente, evitando desperdícios.",
+          "As escolas organizaram projetos para ensinar as crianças sobre a importância de preservar a água.",
+          "As campanhas tiveram resultados positivos, mas não foram suficientes para resolver os problemas de abastecimento."
         ]
       }
     ]
@@ -53,17 +54,17 @@ const perguntas = [
       {
         texto: "Aumentar a coleta.",
         afirmacao: [
-          "A cidade ampliou a coleta de resíduos, deixando as ruas mais limpas.",
-          "A redução do lixo acumulado diminuiu a presença de animais transmissores de doenças.",
-          "O aumento da coleta elevou os gastos municipais e não resolveu completamente o problema da geração excessiva de resíduos."
+          "Com mais caminhões e funcionários, a coleta de lixo melhorou e as ruas ficaram mais organizadas.",
+          "A limpeza frequente dos espaços públicos ajudou a diminuir a poluição e os riscos à saúde.",
+          "Mesmo com a coleta ampliada, a população continuou produzindo muito lixo, aumentando os custos da prefeitura."
         ]
       },
       {
         texto: "Investir em reciclagem.",
         afirmacao: [
-          "A cidade criou pontos de coleta seletiva, facilitando a separação dos materiais recicláveis.",
-          "As cooperativas de reciclagem receberam apoio e ampliaram as oportunidades de trabalho.",
-          "A falta de participação de parte da população dificultou a separação correta dos resíduos."
+          "A coleta seletiva aumentou e muitos materiais que seriam descartados passaram a ser reutilizados.",
+          "A reciclagem fortaleceu as cooperativas locais e contribuiu para a geração de empregos.",
+          "A falta de conscientização de alguns moradores dificultou o crescimento da reciclagem na cidade."
         ]
       }
     ]
@@ -74,17 +75,17 @@ const perguntas = [
       {
         texto: "Melhorar o transporte público.",
         afirmacao: [
-          "A cidade aumentou a frequência dos ônibus, reduzindo o tempo de espera dos passageiros.",
-          "Mais moradores passaram a utilizar o transporte público, diminuindo a quantidade de carros nas ruas.",
-          "A melhoria do serviço exigiu investimentos contínuos para manter a qualidade e atender aos bairros mais distantes."
+          "A melhoria dos ônibus incentivou mais pessoas a deixar seus carros em casa.",
+          "Com mais linhas e horários disponíveis, os moradores conseguiram se deslocar com maior facilidade.",
+          "Apesar dos benefícios, a prefeitura precisou continuar investindo para atender toda a população."
         ]
       },
       {
         texto: "Construir novas vias.",
         afirmacao: [
-          "A construção de novas vias facilitou a circulação de veículos em algumas regiões.",
-          "A ampliação das ruas melhorou temporariamente o fluxo do trânsito, mas aumentou os gastos públicos.",
-          "O crescimento da quantidade de carros fez com que novos congestionamentos surgissem, além de aumentar a poluição."
+          "As novas avenidas facilitaram o deslocamento dos moradores e melhoraram o acesso a algumas regiões.",
+          "A ampliação das vias reduziu os congestionamentos inicialmente, mas exigiu muitos recursos públicos.",
+          "Com o aumento do número de veículos, os congestionamentos voltaram e a poluição do ar aumentou."
         ]
       }
     ]
@@ -95,17 +96,17 @@ const perguntas = [
       {
         texto: "A cidade ficou mais sustentável.",
         afirmacao: [
-          "A cidade passou a utilizar melhor seus recursos, reduzindo desperdícios e melhorando os serviços públicos.",
-          "Os moradores participaram mais das decisões comunitárias e das ações ambientais.",
-          "Apesar dos avanços, a prefeitura precisou continuar planejando os gastos para manter as melhorias."
+          "A cidade conseguiu equilibrar o desenvolvimento econômico com a preservação ambiental.",
+          "Os moradores passaram a participar mais das decisões e a colaborar com projetos sustentáveis.",
+          "Mesmo com os avanços, a cidade ainda precisava investir em novas soluções para proteger o meio ambiente."
         ]
       },
       {
         texto: "A cidade melhorou economicamente, mas ainda enfrenta problemas ambientais.",
         afirmacao: [
-          "A economia cresceu e novas oportunidades de emprego surgiram.",
-          "O aumento da produção e do consumo elevou a quantidade de resíduos e a demanda por água.",
-          "A prefeitura percebeu que o crescimento econômico precisava ser acompanhado de políticas de proteção ambiental."
+          "O crescimento econômico trouxe novos empregos, aumentou a renda e melhorou a vida de muitos moradores.",
+          "O desenvolvimento da cidade aumentou o consumo de recursos naturais e a produção de lixo.",
+          "A prefeitura percebeu que o crescimento econômico precisava acontecer junto com a preservação ambiental."
         ]
       }
     ]
